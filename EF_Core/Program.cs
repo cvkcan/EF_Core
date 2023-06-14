@@ -8,6 +8,11 @@ Console.WriteLine("Hi");
 //EF CORE
 
 //•	DbContext: veritabanını temsil edecek olan sınıftır. Ve DbContext’ten türetilmelidir. Temel yapılandırmalardan sorumludur. Sorgulama operasyonlarını yürütür. SQL dönüşümü ve veritabanına gönderme yapar.
+//• DbFirst için kullanılacak komutlar:
+//• Scaffold-DbContext 'ConnectionString' Microsoft.EntityFrameworkCore.[provider]
+//• Scaffold-DbContext 'ConnectionString' Microsoft.EntityFrameworkCore.[provider] -Tables table1,table2 ...
+//• Scaffold-DbContext 'ConnectionString' Microsoft.EntityFrameworkCore.[provider] -Context ContextName
+//• Scaffold-DbContext 'ConnectionString' Microsoft.EntityFrameworkCore.[provider] -ContextDir Data -OutputDir Models.
 //•	Entity: tablolarımı temsil edecek sınıf. Tablolar çoğul iken Entity’ler tekil olur.
 //•	Entityler’in DbSet’teki adları çoğuldur. Tablolara denktir. 
 //•	DBFirst’te önce veritabanı oluşturulur. Sonrasında scaffold ile gerçekleştiriz.

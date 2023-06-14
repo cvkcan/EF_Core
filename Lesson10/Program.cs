@@ -25,6 +25,7 @@ Product product2 = new Product
 
 //await context.AddAsync(product);
 //await context.SaveChangesAsync();
+//Tip güvensiz
 
 #endregion
 
@@ -32,6 +33,7 @@ Product product2 = new Product
 
 //await context.Products.AddAsync(product2);
 //await context.SaveChangesAsync();
+//Tip güvenli
 
 #endregion
 
@@ -42,6 +44,8 @@ Product product2 = new Product
 
 //await context.Products.AddRangeAsync(product,product2);
 //await context.SaveChangesAsync();
+
+//Birden fazla transaction oluşturacağından tavsiye edilmez.
 
 #endregion
 
