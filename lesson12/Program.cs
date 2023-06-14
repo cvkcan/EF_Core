@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Diagnostics.Contracts;
 
+Console.WriteLine("Hi");
 
 #region Veri Nasıl Silimir?
 
