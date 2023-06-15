@@ -1,6 +1,9 @@
 ﻿using lesson13.Migrations;
 using Microsoft.EntityFrameworkCore;
+//<<<<<<< HEAD
 using System.Collections.Immutable;
+//=======
+//>>>>>>> ed75b10a2ece2bef5a09257ea4fb9550363f9f60
 using System.Net.Mime;
 
 Console.WriteLine("Hello, World!");
@@ -251,6 +254,7 @@ ETicaretContext context = new ETicaretContext();
 #endregion
 #endregion
 
+//<<<<<<< HEAD
 #region Diğer Sorgulama Fonksiyonları
 #region CountAsync
 //Oluşturulan sorgunun execute edilmesi neticesinde kaç adet satırın elde edileceğini sayısal olarak (int) bizlere bildiren fonksiyondur.
@@ -308,6 +312,8 @@ ETicaretContext context = new ETicaretContext();
 #endregion
 #endregion
 
+//=======
+//>>>>>>> ed75b10a2ece2bef5a09257ea4fb9550363f9f60
 Console.WriteLine();
 
 public class ETicaretContext:DbContext
