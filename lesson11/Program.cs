@@ -20,11 +20,18 @@ Console.WriteLine("Hello, World!");
 
 #endregion
 #region Takip Edilemeyen Nesneler Nasıl Güncellenir?
-//Product Product = new Product {
-//    Id = 1,
-//    LastName ="Suda",
-//    FirstName="Kuda"
-//};
+Product Product = new Product
+{
+    Id = 1,
+    LastName = "Suda",
+    FirstName = "Kuda"
+};
+Product Product2 = new Product
+{
+    Id = 1,
+    LastName = "Suda",
+    FirstName = "Kuda"
+};
 #endregion
 #region Update Fonksiyonu
 
@@ -55,7 +62,9 @@ Console.WriteLine("Hello, World!");
 
 #endregion
 #region Birden Fazla Veri Güncellenirken Nelere Dikkat Edilmelidir?
-
+//ECommerceDbContext context = new();
+//context.Products.UpdateRange(Product,Product2);
+//await context.SaveChangesAsync();
 //ECommerceDbContext context = new ECommerceDbContext();
 //var products = await context.Products.ToListAsync();
 //foreach (var product in products)
