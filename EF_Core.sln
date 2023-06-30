@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lesson12", "lesson12\lesson
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Queryingg", "lesson13\Queryingg.csproj", "{9A9B8A0A-FCAF-4CE8-976E-F71C34241D96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeTracker", "ChangeTracker\ChangeTracker.csproj", "{FCB22DE1-051B-4FB0-B48F-EA0DEA92AE02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangeTracker", "ChangeTracker\ChangeTracker.csproj", "{FCB22DE1-051B-4FB0-B48F-EA0DEA92AE02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracking", "Tracking\Tracking.csproj", "{FD95A4A5-A560-40B4-90AE-320FD96AFABE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{FCB22DE1-051B-4FB0-B48F-EA0DEA92AE02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCB22DE1-051B-4FB0-B48F-EA0DEA92AE02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCB22DE1-051B-4FB0-B48F-EA0DEA92AE02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD95A4A5-A560-40B4-90AE-320FD96AFABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD95A4A5-A560-40B4-90AE-320FD96AFABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD95A4A5-A560-40B4-90AE-320FD96AFABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD95A4A5-A560-40B4-90AE-320FD96AFABE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
